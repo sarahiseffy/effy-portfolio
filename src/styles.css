@@ -1,12 +1,13 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #ebb4c2;
+  --secondary-color: #66add9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
   padding-bottom: 0%;
+  background-color: var(--secondary-color);
 }
 
 h1,
@@ -37,4 +38,24 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.my-name {
+  color: var(--primary-color);
+  font-family: kaushan script, cursive;
+}
+
+.contact-me {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-me:hover {
+  background-color: #d99db3;
 }
