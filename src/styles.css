@@ -40,6 +40,16 @@ p {
   line-height: 1.5;
 }
 
+.container-projects {
+  margin-bottom: 50px;
+
+}
+
+.heading-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
 .my-name {
   color: var(--primary-color);
   font-family: kaushan script, cursive;
@@ -58,4 +68,58 @@ p {
 }
 .contact-me:hover {
   background-color: #d99db3;
+}
+
+.primary-link {
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-style: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary-link:hover {
+  background-color: #d99db3;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+   .mb-3 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: #fff;
 }
