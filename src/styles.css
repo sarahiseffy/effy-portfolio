@@ -116,6 +116,11 @@ p {
     text-align: center;
     margin: 0 20px;
   }
+
+.email, .github, .linkedin, .instagram {
+  font-size: 90px;
+  text-align: center;
+}
 }
 
 footer {
@@ -123,4 +128,18 @@ footer {
   padding: 10px;
   background-color: var(--primary-color);
   color: #fff;
+}
+
+.email, .github, .linkedin, .instagram {
+  font-size: 190px;
+  text-align: center;
+}
+
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: #d99db3;
 }
